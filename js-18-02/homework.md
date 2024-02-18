@@ -17,7 +17,7 @@ const sliders = [
 ```
 
 ### Örnek Tasarım Figma Linki
-[Örnek Slider Tasarımı]("https://www.figma.com/file/TyBp6MOfPtKXGsxiAVMwDI/Image-Slider-Component-(Community)?type=design&node-id=3%3A2063&mode=design&t=0sLTua6zIxr8s0KQ-1")
+[Örnek Slider Tasarımı](https://www.figma.com/file/TyBp6MOfPtKXGsxiAVMwDI/Image-Slider-Component-(Community)?type=design&node-id=3%3A2063&mode=design&t=0sLTua6zIxr8s0KQ-1)
 
 ### Ödev Adımları
 
