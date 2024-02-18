@@ -1,0 +1,11 @@
+{
+  "name" : "Mehmet",
+  "surname" : "Yılmaz",
+  "age": 35,
+  "hobbies": ["music","reading","swimming"],
+  "address" : {
+    "city": "Ankara",
+    "districts": ["Çankaya","Keçiören","Mamak","Yenimahalle"],
+    "postCodes": [6000,6001,6002,6003]
+  }
+}
