@@ -25,13 +25,28 @@ fetch('https://jsonplaceholder.typicode.com/users')
                  <div class="user-name">${user.name}</div>
                  <div class="user-email">${user.email}</div>
           </div>
+          <input type="text" class="user-id" value="${user.id}" hidden>
           <div class="address-area">
                  <p class="address-text">${user.address.street}</p>
          </div>
           <div class="company-area">
                    <p class="company-text">${user.company.name}</p>
-          </div>`;
+          </div>
+           <button  onclick="routeProfilePage(${user.id})" class="get-profile"> go to profile</button>
+`;
             myContainer.appendChild(div);
+            div.addEventListener('click', () => {
+                window.location.href = `profile.html?userId=${(user.id)}`;
+            });
         });
 
     }).catch(error => console.log(error));
+
+
+
+const routeProfilePage  = (userId) => {
+    window.location.href = `profile.html?userId=${userId}`;
+
+}
+
+
